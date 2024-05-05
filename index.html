@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor (Part 2)</title>
+    <!-- <link rel="shortcut icon" type="icon browser" href="https://i.ibb.co/SQLPr6g/IMG-1983.png"> -->
+    <link rel="icon" href="https://i.ibb.co/9Ztfdxp/ROBOTICS.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="quizSection.css">
+    <link rel="stylesheet" href="dropdown-sidebar.css">
+    <link rel="stylesheet" href="footer.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#home"><img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt=""> Home ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <ul  class="dropdown">
+                            <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#accordion-steps">Begin?</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#guidance-div">10_Topics</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#accordion-questions"> Questions</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                
+                <li class="with-dropdown">
+                    <a href="#topic-buttons"><img src="https://i.ibb.co/8XYKTgh/reading-book-1.png" alt=""> Topics ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="https://ashl3y-lin.github.io/ANS-robotic_movement-part1/">Movement</a></li>
+                        <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/">Motor</a></li>
+                        <li><a href="#">Display</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">Control</a></li>
+                        <li><a href="#">Sensors</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Operator</a></li>
+                        <li><a href="#">Variable</a></li>
+                        <li><a href="#">My Block</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#wro"><img src="https://i.ibb.co/Drnm7cM/competition.png" alt=""> About WRO</img></a></li>
+
+                <!-- Dropdrown of WRO: experiences. tips -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 3 columns -->
+
+    <div class="wrapper">
+        <div class="header-content" id="movement-home">
+            <h1>Motor (Part 2)</h1>
+            <div>
+                <p>
+                    The motor blocks make only 1 motor to move.
+                    <p>(In my case, I connect  Motor A)</p>
+                </p>
+            </div>
+            <!-- <div class="side-side">
+                <a href="https://ibb.co/HzCpGVx"><img src="https://i.ibb.co/DCYgwt8/Pink-arrows.png" alt="Pink-arrows" height="150"></a>
+                <img src="https://i.ibb.co/QKZ28Yz/Pink-blocks.png" alt="Pink-blocks" height="150">
+            </div> -->
+             
+        </div>
+    
+        <div class="grid-container">
+            <!-- Sidebar content goes here -->
+            <div class="side-bar">
+                <div class="menu">
+                    <div class="item">
+                        <div class="motor-logo"><a href="#movement-home"><img src="https://i.ibb.co/VLmzBrQ/Blue-wheel.png" height="90" alt="motor-logo"></a></div>
+                        
+
+                        <a href="#movement-home"><span class="side-bar-title-1">Part 1</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/#below-header" class="sub-item"> Introduction</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/#arm-up" class="sub-item">Motor Up (fast)</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/#arm-down" class="sub-item">Motor down (fast)</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/#clock-rotation" class="sub-item">clockwise and counter-clockwise</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/#up-container" class="sub-item">Motor Up (slow)</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/#down-container" class="sub-item">Motor down (slow)</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/#movement-key-takeaway" class="sub-item">Key-Takeaways</a></li>
+                        </ul>
+
+                        <!-- <a href="different-page.html#section1">Section One</a> -->
+                        <a href=""><span class="side-bar-title-2">Part 2</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#motor-challenge1" class="sub-item"> Challenge 1</a></li>
+                            <li><a href="#motor-challenge2" class="sub-item">Challenge 2</a></li>
+                            <li><a href="#motor-observation" class="sub-item">Observation</a></li>
+                            <li><a href="#motor-quiz" class="sub-item">Quiz</a></li>
+                            <li><a href="#challengeYou" class="sub-item">Challenge for You</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="movement-warning">
+                <div class="label">
+                    <h3>Before we start! Read this:</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <li>-> Don't worry if the code I used it's different from yours!</li>
+                        <br>
+                            <li><strong>Enjoy the challenges!</strong></li>
+                    </ul>
+                </p>
+            </div>
+
+            <!-- Challenge -->
+            <div id="motor-challenge1" class="grid-item together pink-background"> <!--flex-container-->
+                <div class="flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Challenge 1: grab and turn</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="https://s9.gifyu.com/images/SZam7.gif" alt="motor-gif">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/K28GfKg/6-blue-chal1.png" alt="6-blue-chal1">
+                       <p>You first grab (with motor A) the red container, turn left, and let go of the object.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="motor-challenge2" class="grid-item together pink-background"> <!--flex-container-->
+                <div class="flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Challenge 2: Movement + Motor</h2>
+                        </div>
+                        
+                        <div class="flex-item">
+                            <img src="https://s12.gifyu.com/images/SZrcQ.gif" alt="compress2-blue-chall2">
+                        
+                        </div>
+
+                        <div class="flex-item">
+                            <img src="https://s9.gifyu.com/images/SZrcu.gif" alt="compress-blue-chall2">
+                            <img src="https://i.ibb.co/QNq11fx/7-blue-chal2.png" alt="7-blue-chal2">
+                        </div>
+                </div>
+            </div>
+
+        
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="motor-observation">
+                <div class="label">
+                    <h3>Observations</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <li>-> The Motor A (in my case), it's the robot's arm</li>
+                        <li>-> You can use motor and movement together, to make the robot moves it's arm and wheels
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <!-- Quiz Sction -->
+            <div class="grid-item together pink-background" id="motor-quiz">
+                <!-- Quiz section -->
+                <div class="app">
+                    <h1>Time for a quiz!</h1>
+                    <div class="quiz">
+                        <h2 id="question"> Question goes here</h2>
+                        <div id="answer-buttons">
+                            <button class="btn"> Answer 1</button>
+                            <button class="btn"> Answer 2</button>
+                            <button class="btn"> Answer 3</button>
+                            <button class="btn"> Answer 4</button>
+                        </div>
+                        <button id="next-button">Next</button>
+                    </div>
+                </div>
+            </div>
+
+<!-- Challenge for you section -->
+            <div class="grid-item together pink-background" id="challengeYou">
+                <div class="flex-grid flex-container flex-item challenge-container">
+                    <div class="letter-both">
+                        <h2>Challenge for you</h2>
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://s12.gifyu.com/images/SZrgS.gif" alt="blue-you">
+                        <p>Hint:</p>
+                        <p>The speed for motor A is 20%</p>
+                        <p>The speed for the wheels is 50%</p>
+                    </div>
+
+                    <div class="flex-item">
+                        <div id="hide-box">
+                            <img src="https://i.ibb.co/yfXt78L/8-blue-you.png" alt="8-blue-you">
+                        </div>
+                        <button class="unhide-button" onclick="ShowAnswer()">Show Answer</button>
+                        
+                    </div>
+                </div>
+            </div>
+         
+    <!-- end of wrapper -->
+</div>
+
+    <!-- Buttons for next -->
+    <div class="bottom-buttons">
+        <a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/"><button id="home" class="home-icon"> <img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt="home-icon-silhouette" height="30"></button></a>
+        <a href="https://primelessons.org/en/Lessons.html"><button id="motors" class="next-button">Next: Display <img src="https://i.ibb.co/0CWHhM7/icons8-arrow-full-white.png" alt="icons8-arrow-full-white" height="30" ></button></a>
+    </div>
+
+
+          <!-- Footer -->
+        <div class="footer-container">
+            
+            <div class="footerNav">
+                <ul>
+                    <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#home">Home</a></li>
+                    <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#topic-buttons">Topics</a></li>
+                    <li><a href="#wro">About WRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+
+</div>
+    
+
+    <script src="quizSection.js"></script>
+    <script src="showAnswer.js"></script>
+    <script src="scroll-smooth.js"></script>
+</body>
+</html>
